@@ -22,6 +22,8 @@ jobs:
         uses: crazy-max/ghaction-docker-meta@v1
         with:
           images: ghcr.io/colibris-xyz/nextcloud
+          tag-semver: |
+            {{version}}
       -
         name: Set up QEMU
         uses: docker/setup-qemu-action@v1
