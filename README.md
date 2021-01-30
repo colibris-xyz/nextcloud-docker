@@ -5,4 +5,6 @@
 
 Based on the [official fpm image](https://hub.docker.com/_/nextcloud/) (alpine variant), with some changes :
 
+- Use the low-privileged user 'www-data'
 - Use supervisor to run the application and the cron job in the same container
+- Add more configuration by env variables
