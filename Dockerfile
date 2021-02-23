@@ -1,6 +1,6 @@
 FROM nextcloud:21.0.0-fpm-alpine
 
-RUN apk add --no-cache supervisor
+RUN apk add --no-cache supervisor imagemagick
 
 COPY supervisord.conf /
 COPY config/* /usr/src/nextcloud/config/
