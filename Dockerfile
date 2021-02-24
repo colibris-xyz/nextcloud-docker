@@ -3,6 +3,7 @@ FROM nextcloud:21.0.0-fpm-alpine
 RUN apk add --no-cache supervisor imagemagick
 
 COPY supervisord.conf /
+COPY cron.sh /cron.sh
 COPY config/* /usr/src/nextcloud/config/
 
 ENV NEXTCLOUD_UPDATE=1
