@@ -1,6 +1,6 @@
 FROM nextcloud:22.1.1-fpm-alpine
 
-RUN apk add --no-cache supervisor imagemagick
+RUN apk add --no-cache supervisor imagemagick ffmpeg
 
 COPY supervisord.conf /
 COPY cron.sh /cron.sh
