@@ -7,4 +7,5 @@ Based on the [official fpm image](https://hub.docker.com/_/nextcloud/) (alpine v
 
 - Use the low-privileged user 'www-data'
 - Use supervisor to run the application and the cron job in the same container
+- Video and PDF preview enabled by default
 - Add more configuration by env variables
