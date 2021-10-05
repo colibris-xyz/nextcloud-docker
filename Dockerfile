@@ -1,4 +1,4 @@
-FROM nextcloud:22.1.1-fpm-alpine
+FROM nextcloud:22.2.0-fpm-alpine
 
 RUN apk add --no-cache supervisor imagemagick ffmpeg
 
