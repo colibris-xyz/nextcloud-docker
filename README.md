@@ -1,5 +1,6 @@
-[![GitHub release](https://img.shields.io/github/v/release/colibris-xyz/nextcloud-docker.svg?style=flat)](https://github.com/colibris-xyz/nextcloud-docker/releases/latest)
-[![GitHub license](https://img.shields.io/github/license/colibris-xyz/nextcloud-docker)](https://github.com/colibris-xyz/nextcloud-docker/blob/main/LICENSE)
+[![Releases](https://img.shields.io/gitlab/v/release/colibris-xyz/nextcloud-docker?gitlab_url=https%3A%2F%2Fframagit.org)](https://framagit.org/colibris-xyz/nextcloud-docker/-/releases)
+[![Build status](https://img.shields.io/gitlab/pipeline-status/colibris-xyz/nextcloud-docker?branch=main&gitlab_url=https%3A%2F%2Fframagit.org)](https://framagit.org/colibris-xyz/nextcloud-docker/-/pipelines)
+[![License](https://img.shields.io/gitlab/license/colibris-xyz/nextcloud-docker?gitlab_url=https%3A%2F%2Fframagit.org)](https://framagit.org/colibris-xyz/nextcloud-docker/-/blob/main/LICENSE)
 
 # Nextcloud Docker image for colibris.xyz
 
